@@ -177,8 +177,8 @@ def generate_and_save_images(model, epoch, test_input):
         plt.axis('off')
 
     plt.savefig('image_at_epoch_{:04d}.png'.format(epoch))
-    if epoch == EPOCHS:       # added to only show image at last epoch
-        plt.show()
+#    if epoch == EPOCHS:       # added to only show image at last epoch
+#        plt.show()
 
 
 # Train model
